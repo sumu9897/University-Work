@@ -1,0 +1,11 @@
+;How number  1 this binary bit 
+MOV BX, 0101111010110101B
+
+XOR AX,AX
+MOV CX,16
+TOP:
+ROL BX,1 
+JNC NEXT 
+INC AX 
+NEXT: 
+LOOP

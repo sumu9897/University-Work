@@ -1,0 +1,19 @@
+.MODEL SMALL 
+.STACK 100H
+.DATA 
+A DB 0AH, 0DH 'POSITIVE $'
+B DB 0AH, 0DH 'NEGATIVE $'
+
+.CODE
+MAIN PROC
+    MOV AX,@DATA
+    MOV DS,AX
+    
+    MOV AH,1
+    INT 21H
+    MOV BH,AL
+    
+    CMP BH,30H
+    JG POS
+    JL NEGA
+    JE EXIT
