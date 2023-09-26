@@ -1,0 +1,41 @@
+SQL ALL command
+
+1.SELECT: Retrieve data from one or more database tables.
+2.INSERT INTO: Insert new rows into a table.
+3.UPDATE: Modify existing data in a table.
+4.DELETE: Remove rows from a table.
+5.CREATE TABLE: Create a new database table.
+6.ALTER TABLE: Modify an existing database table structure.
+7.DROP TABLE: Remove an existing database table.
+8.CREATE DATABASE: Create a new database.
+9.ALTER DATABASE: Modify an existing database.
+10.DROP DATABASE: Remove an existing database.
+11.CREATE INDEX: Create an index on one or more columns of a table.
+12.DROP INDEX: Remove an index from a table.
+13.JOIN: Combine rows from two or more tables based on related columns.
+14.GROUP BY: Group rows based on the values of a specific column.
+15.HAVING: Filter the results of a GROUP BY clause.
+16.ORDER BY: Sort the result set based on one or more columns.
+17.COUNT: Count the number of rows in a table or a result set.
+18.SUM: Calculate the sum of values in a column.
+19.AVG: Calculate the average value of a column.
+20.MAX: Find the maximum value in a column.
+21.MIN: Find the minimum value in a column.
+22.LIKE: Perform pattern matching in a WHERE clause.
+23.IN: Specify multiple values in a WHERE clause.
+24.BETWEEN: Filter results based on a range of values.
+25.NULL: Test for NULL values.
+26.UNION: Combine the results of two or more SELECT queries.
+27.UNION ALL: Combine the results of two or more SELECT queries, including duplicates.
+28.EXISTS: Check for the existence of rows in a subquery.
+29.NOT EXISTS: Check for the non-existence of rows in a subquery.
+30.CASE: Perform conditional operations in a query.
+31.TRUNCATE TABLE: Remove all rows from a table (without logging individual row deletions).
+32.GRANT: Provide privileges to users or roles.
+33.REVOKE: Remove privileges from users or roles.
+34.COMMIT: Save all changes made in the current transaction.
+35.ROLLBACK: Discard all changes made in the current transaction.
+36.SAVEPOINT: Set a savepoint within the current transaction.
+37.RANK(): Assign a rank to each row based on specified criteria.
+38.DENSE_RANK(): Assign a dense rank to each row based on specified criteria.
+39.ROW_NUMBER(): Assign a unique number to each row.
